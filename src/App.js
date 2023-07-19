@@ -1,22 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './css/App.css';
+// import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
-    <div className="App">
+    <div id='Home' className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>CodeTail</h1>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Oc's website: CodeTail 
         </p>
-        <a
+        {/* <FontAwesomeIcon icon="fa-brands fa-font-awesome" /> */}
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
