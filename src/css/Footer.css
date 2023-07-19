@@ -11,6 +11,7 @@
 .scroll-footer>.Copyright{
   text-align: center;
   font-weight: bold;
+  margin: auto auto auto auto;
 }
 
 .nav{
