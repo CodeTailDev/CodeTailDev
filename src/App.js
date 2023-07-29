@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './css/App.css';
 // import '../node_modules/font-awesome/css/font-awesome.min.css';
 
@@ -7,7 +6,6 @@ function App() {
     <div id='Home' className="App">
       <header className="App-header">
         <h1>CodeTail</h1>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
          Oc's website: CodeTail 
         </p>

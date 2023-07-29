@@ -1,4 +1,5 @@
 import './css/Header.css';
+import favicon from './favicon.png'
 // function onClickTranslate() {
 //   var i18n = "en_us";
 //   if (i18n == "en_us"){
@@ -13,6 +14,7 @@ function Header() {
     <header className='scroll-header'>
       <nav className='nav'>
         <nav className='logo'>
+          <img src={favicon} className="" alt="logo" />
           <a href='https://www.codetail.net'>CodeTail</a>
         </nav>
         <ul className='ul'>

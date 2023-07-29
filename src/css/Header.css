@@ -60,3 +60,8 @@
   text-decoration: none;
   color: black;
 }
+
+.scroll-header>.nav>.logo> img{
+  width: 50px;
+  margin: 0px 5px;
+}
