@@ -1,5 +1,21 @@
-### CodeTail
+# CodeTail WebPage
 
-CodeTail is my Oc Coco's WebSite.
+Using **Vite** & **Vue3**
 
-Powered by React
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
