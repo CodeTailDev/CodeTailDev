@@ -71,3 +71,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+@media (prefers-color-scheme: light) {
+  body {
+    background:#DCE2F1;
+    color: #101010;
+  }
+  :root {
+    --text--color: #505050;
+    --container--color: #DCE2F1;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background:#101010;
+    color: #DCE2F1;
+  }
+  :root {
+    --text--color: #DCE2F1;
+    --container--color: #101010;
+  }
+}
+@media (prefers-color-scheme: no-preference) {
+  body {
+    background:#DCE2F1;
+    color: #101010;
+  }
+  :root {
+    --text--color: #505050;
+    --container--color: #DCE2F1;
+  }
+}

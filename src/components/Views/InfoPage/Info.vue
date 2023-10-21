@@ -3,7 +3,7 @@ import Header from "@/components/Router/Header.vue";
 </script>
 
 <template>
-  <div style="height: 100vh; background-color: #2c3e50">
+  <div class="IFP">
     <Header />
     <div id="InfoPage"></div>
   </div>
@@ -11,7 +11,10 @@ import Header from "@/components/Router/Header.vue";
 
 <style scoped>
 
-
+.IFP {
+  height: 100vh;
+  background-color: var(--container--color);
+}
 
 </style>
 

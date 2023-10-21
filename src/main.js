@@ -4,13 +4,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './components/Router'
 
-
-// import axios from 'axios'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const app = createApp(App)
-// app.config.globalProperties.Axios = axios
-// app.config.globalProperties.axios = axios
 
 app.use(router)
+app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
 
