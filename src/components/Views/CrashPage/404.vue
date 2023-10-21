@@ -15,6 +15,6 @@
     width: 100vw;
     justify-content: center;
 
-    font-size: 50;
+    font-size: 50px;
 }
 </style>w

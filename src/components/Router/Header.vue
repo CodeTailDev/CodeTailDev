@@ -29,7 +29,7 @@ import { RouterLink } from 'vue-router'
 .scroll-header {
   --scroll-height:50px;
   --scroll-ul-width: 350px;
-  background-color: #DCE2F1;
+  background-color: var(--container--color);
   box-shadow: 0 -1px 15px rgba(0,0,0, .15);
   position:fixed;
   top: 0;
@@ -57,9 +57,9 @@ import { RouterLink } from 'vue-router'
 }
 
 .scroll-header>.nav>.logo a{
-  color: black;
+  color: var(--text--color);
   text-decoration: none;
-  font-family: Inter;
+  font-family: Inter,sans-serif;
   font-size: 32px;
   font-weight: 400;
 }
@@ -68,7 +68,6 @@ import { RouterLink } from 'vue-router'
   height: var(--scroll-height);
   width: var(--scroll-ul-width);
   display: flex;
-  font-family: Inter;
   text-align:center;
   align-items:center;
   flex-direction: row;
@@ -89,7 +88,8 @@ import { RouterLink } from 'vue-router'
 .scroll-header>.nav>ul>li a{
   font-size: large;
   text-decoration: none;
-  color: black;
+  color: var(--text--color);
+  font-family: Inter,sans-serif;
 }
 
 .scroll-header>.nav>.logo> img{

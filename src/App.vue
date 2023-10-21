@@ -1,6 +1,7 @@
 <script setup>
 // import Header from "@/components/Router/Header.vue";
 import { RouterView } from 'vue-router'
+import "@/style.css"
 </script>
 
 <template>
@@ -9,4 +10,6 @@ import { RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
