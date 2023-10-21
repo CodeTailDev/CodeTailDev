@@ -94,6 +94,6 @@ import { RouterLink } from 'vue-router'
 
 .scroll-header>.nav>.logo> img{
   width: 50px;
-  margin: 0px 5px;
+  margin: 0 5px;
 }
 </style>
