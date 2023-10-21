@@ -1,27 +1,28 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
   <header class='scroll-header'>
     <nav class='nav'>
       <nav class='logo'>
-        <img src='./favicon.png' class="" alt="logo" />
+        <img src='../favicon.png' class="" alt="logo" />
         <a href='https://www.codetail.net'>CodeTail</a>
       </nav>
       <ul class='ul'>
         <li>
-          <a href='#Home'>Home</a>
+          <RouterLink to="/home">Home</RouterLink>
         </li>
         <li>
-          <a href='#Information'>Information</a>
+          <RouterLink to="/info">Information</RouterLink>
         </li>
         <li>
-          <a href='#About'>About</a>
+          <RouterLink to="/about">About</RouterLink>
         </li>
-
       </ul>
     </nav>
   </header>
+  <div style="height: 50px;"></div>
 </template>
 
 <style scoped>
@@ -58,6 +59,7 @@
 .scroll-header>.nav>.logo a{
   color: black;
   text-decoration: none;
+  font-family: Inter;
   font-size: 32px;
   font-weight: 400;
 }
@@ -66,6 +68,7 @@
   height: var(--scroll-height);
   width: var(--scroll-ul-width);
   display: flex;
+  font-family: Inter;
   text-align:center;
   align-items:center;
   flex-direction: row;
