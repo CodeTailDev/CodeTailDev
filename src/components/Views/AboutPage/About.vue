@@ -32,7 +32,7 @@ import IconQQ from "@/components/icons/IconQQ.vue";
         </div>
         <div>
           <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dDpWCkhQyTElYSQSVdTGuPCIemQriF-A&authKey=o%2FwVDS6xzj5mbWbbcempCPA1gqDMKlWhfr8Osmb74BoUy2iAlNx%2BDd8kP2BbR830&noverify=0&group_code=907109574">
-            <IconQQ style="display: inline-flex"/>
+            <IconQQ style="display: inline-flex;"/>
             <span>
             QQ
           </span>
